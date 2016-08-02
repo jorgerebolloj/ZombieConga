@@ -29,9 +29,9 @@
 		30B2473B1D46E033008E8984 /* hitCatLady.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30B247361D46E033008E8984 /* hitCatLady.wav */; };
 		30B2473C1D46E033008E8984 /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30B247371D46E033008E8984 /* lose.wav */; };
 		30B2473D1D46E033008E8984 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30B247381D46E033008E8984 /* win.wav */; };
-		30B2473F1D4701A4008E8984 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2473E1D4701A4008E8984 /* GameOverScene.swift */; };
 		30B247411D4707E7008E8984 /* MusicUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B247401D4707E7008E8984 /* MusicUtils.swift */; };
 		30B247431D470CA6008E8984 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B247421D470CA6008E8984 /* MainMenuScene.swift */; };
+		30D9DB451D503D1B000C9049 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9DB441D503D1B000C9049 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,9 +59,9 @@
 		30B247361D46E033008E8984 /* hitCatLady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCatLady.wav; sourceTree = "<group>"; };
 		30B247371D46E033008E8984 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
 		30B247381D46E033008E8984 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
-		30B2473E1D4701A4008E8984 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ../GameOverScene.swift; sourceTree = "<group>"; };
 		30B247401D4707E7008E8984 /* MusicUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicUtils.swift; sourceTree = "<group>"; };
 		30B247421D470CA6008E8984 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		30D9DB441D503D1B000C9049 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 				30B247061D458D8B008E8984 /* AppDelegate.swift */,
 				30B247081D458D8B008E8984 /* GameScene.sks */,
 				30B2470A1D458D8B008E8984 /* GameScene.swift */,
-				30B2473E1D4701A4008E8984 /* GameOverScene.swift */,
+				30D9DB441D503D1B000C9049 /* GameOverScene.swift */,
 				30B247421D470CA6008E8984 /* MainMenuScene.swift */,
 				30B247311D46AE43008E8984 /* RandomUtils.swift */,
 				30B2472F1D45DDA0008E8984 /* MathUtils.swift */,
@@ -227,10 +227,10 @@
 			files = (
 				30B247321D46AE43008E8984 /* RandomUtils.swift in Sources */,
 				30B247411D4707E7008E8984 /* MusicUtils.swift in Sources */,
+				30D9DB451D503D1B000C9049 /* GameOverScene.swift in Sources */,
 				30B2470B1D458D8B008E8984 /* GameScene.swift in Sources */,
 				30B247301D45DDA0008E8984 /* MathUtils.swift in Sources */,
 				30B2470D1D458D8B008E8984 /* GameViewController.swift in Sources */,
-				30B2473F1D4701A4008E8984 /* GameOverScene.swift in Sources */,
 				30B247431D470CA6008E8984 /* MainMenuScene.swift in Sources */,
 				30B247071D458D8B008E8984 /* AppDelegate.swift in Sources */,
 			);
