@@ -31,6 +31,29 @@
 		30B2473D1D46E033008E8984 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30B247381D46E033008E8984 /* win.wav */; };
 		30B247411D4707E7008E8984 /* MusicUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B247401D4707E7008E8984 /* MusicUtils.swift */; };
 		30B247431D470CA6008E8984 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B247421D470CA6008E8984 /* MainMenuScene.swift */; };
+		30BA61741D5945090088FABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA61731D5945090088FABC /* AppDelegate.swift */; };
+		30BA61781D59450A0088FABC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30BA61771D59450A0088FABC /* GameScene.sks */; };
+		30BA617D1D59450A0088FABC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30BA617B1D59450A0088FABC /* MainMenu.xib */; };
+		30BA61831D59479A0088FABC /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 30B247241D45984E008E8984 /* sprites.atlas */; };
+		30BA61841D5947BF0088FABC /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B2471D1D45984E008E8984 /* background1.png */; };
+		30BA61851D5947BF0088FABC /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B2471E1D45984E008E8984 /* background2.png */; };
+		30BA61861D5947BF0088FABC /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B2471F1D45984E008E8984 /* heart.png */; };
+		30BA61871D5947BF0088FABC /* infiniteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B247201D45984E008E8984 /* infiniteButton.png */; };
+		30BA61881D5947BF0088FABC /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B247211D45984E008E8984 /* MainMenu.png */; };
+		30BA61891D5947BF0088FABC /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B247221D45984E008E8984 /* YouLose.png */; };
+		30BA618A1D5947BF0088FABC /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 30B247231D45984E008E8984 /* YouWin.png */; };
+		30BA618B1D5947CC0088FABC /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 30B247341D46E033008E8984 /* backgroundMusic.mp3 */; };
+		30BA618C1D5947CC0088FABC /* hitCat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30B247351D46E033008E8984 /* hitCat.wav */; };
+		30BA618D1D5947CC0088FABC /* hitCatLady.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30B247361D46E033008E8984 /* hitCatLady.wav */; };
+		30BA618E1D5947CC0088FABC /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30B247371D46E033008E8984 /* lose.wav */; };
+		30BA618F1D5947CC0088FABC /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 30B247381D46E033008E8984 /* win.wav */; };
+		30BA61901D5947D90088FABC /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B247421D470CA6008E8984 /* MainMenuScene.swift */; };
+		30BA61911D5947D90088FABC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2470A1D458D8B008E8984 /* GameScene.swift */; };
+		30BA61921D5947D90088FABC /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9DB441D503D1B000C9049 /* GameOverScene.swift */; };
+		30BA61931D5947D90088FABC /* RandomUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B247311D46AE43008E8984 /* RandomUtils.swift */; };
+		30BA61941D5947D90088FABC /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2472F1D45DDA0008E8984 /* MathUtils.swift */; };
+		30BA61951D5947D90088FABC /* MusicUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B247401D4707E7008E8984 /* MusicUtils.swift */; };
+		30BA61961D5947DD0088FABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B2472D1D459C92008E8984 /* Assets.xcassets */; };
 		30D9DB451D503D1B000C9049 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D9DB441D503D1B000C9049 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +61,7 @@
 		30B247031D458D8B008E8984 /* ZombiConga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombiConga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B247061D458D8B008E8984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30B247081D458D8B008E8984 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		30B2470A1D458D8B008E8984 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		30B2470A1D458D8B008E8984 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ZombiConga/GameScene.swift; sourceTree = "<group>"; };
 		30B2470C1D458D8B008E8984 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		30B2470F1D458D8B008E8984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30B247141D458D8B008E8984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,22 +73,34 @@
 		30B247211D45984E008E8984 /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenu.png; sourceTree = "<group>"; };
 		30B247221D45984E008E8984 /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouLose.png; sourceTree = "<group>"; };
 		30B247231D45984E008E8984 /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWin.png; sourceTree = "<group>"; };
-		30B247241D45984E008E8984 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
-		30B2472D1D459C92008E8984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		30B2472F1D45DDA0008E8984 /* MathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtils.swift; sourceTree = "<group>"; };
-		30B247311D46AE43008E8984 /* RandomUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomUtils.swift; sourceTree = "<group>"; };
+		30B247241D45984E008E8984 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = sprites.atlas; path = ZombiConga/sprites.atlas; sourceTree = "<group>"; };
+		30B2472D1D459C92008E8984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ZombiConga/Assets.xcassets; sourceTree = "<group>"; };
+		30B2472F1D45DDA0008E8984 /* MathUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MathUtils.swift; path = ZombiConga/MathUtils.swift; sourceTree = "<group>"; };
+		30B247311D46AE43008E8984 /* RandomUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomUtils.swift; path = ZombiConga/RandomUtils.swift; sourceTree = "<group>"; };
 		30B247341D46E033008E8984 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 		30B247351D46E033008E8984 /* hitCat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCat.wav; sourceTree = "<group>"; };
 		30B247361D46E033008E8984 /* hitCatLady.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitCatLady.wav; sourceTree = "<group>"; };
 		30B247371D46E033008E8984 /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
 		30B247381D46E033008E8984 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
-		30B247401D4707E7008E8984 /* MusicUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicUtils.swift; sourceTree = "<group>"; };
-		30B247421D470CA6008E8984 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
-		30D9DB441D503D1B000C9049 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		30B247401D4707E7008E8984 /* MusicUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicUtils.swift; path = ZombiConga/MusicUtils.swift; sourceTree = "<group>"; };
+		30B247421D470CA6008E8984 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenuScene.swift; path = ZombiConga/MainMenuScene.swift; sourceTree = "<group>"; };
+		30BA61711D5945090088FABC /* ZombieCongaMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombieCongaMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BA61731D5945090088FABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30BA61771D59450A0088FABC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		30BA617C1D59450A0088FABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		30BA617E1D59450A0088FABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D9DB441D503D1B000C9049 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameOverScene.swift; path = ZombiConga/GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		30B247001D458D8B008E8984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA616E1D5945090088FABC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,7 +113,9 @@
 		30B246FA1D458D8B008E8984 = {
 			isa = PBXGroup;
 			children = (
+				30BA61821D5946750088FABC /* ZombieCongaShared */,
 				30B247051D458D8B008E8984 /* ZombiConga */,
+				30BA61721D5945090088FABC /* ZombieCongaMac */,
 				30B247041D458D8B008E8984 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				30B247031D458D8B008E8984 /* ZombiConga.app */,
+				30BA61711D5945090088FABC /* ZombieCongaMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,20 +132,10 @@
 		30B247051D458D8B008E8984 /* ZombiConga */ = {
 			isa = PBXGroup;
 			children = (
-				30B2471C1D45984E008E8984 /* Images */,
-				30B247241D45984E008E8984 /* sprites.atlas */,
-				30B247331D46E033008E8984 /* Sounds */,
 				30B247061D458D8B008E8984 /* AppDelegate.swift */,
-				30B247081D458D8B008E8984 /* GameScene.sks */,
-				30B2470A1D458D8B008E8984 /* GameScene.swift */,
-				30D9DB441D503D1B000C9049 /* GameOverScene.swift */,
-				30B247421D470CA6008E8984 /* MainMenuScene.swift */,
-				30B247311D46AE43008E8984 /* RandomUtils.swift */,
-				30B2472F1D45DDA0008E8984 /* MathUtils.swift */,
-				30B247401D4707E7008E8984 /* MusicUtils.swift */,
 				30B2470C1D458D8B008E8984 /* GameViewController.swift */,
+				30B247081D458D8B008E8984 /* GameScene.sks */,
 				30B2470E1D458D8B008E8984 /* Main.storyboard */,
-				30B2472D1D459C92008E8984 /* Assets.xcassets */,
 				30B247131D458D8B008E8984 /* LaunchScreen.storyboard */,
 				30B247161D458D8B008E8984 /* Info.plist */,
 			);
@@ -125,7 +153,8 @@
 				30B247221D45984E008E8984 /* YouLose.png */,
 				30B247231D45984E008E8984 /* YouWin.png */,
 			);
-			path = Images;
+			name = Images;
+			path = ZombiConga/Images;
 			sourceTree = "<group>";
 		};
 		30B247331D46E033008E8984 /* Sounds */ = {
@@ -137,7 +166,36 @@
 				30B247371D46E033008E8984 /* lose.wav */,
 				30B247381D46E033008E8984 /* win.wav */,
 			);
-			path = Sounds;
+			name = Sounds;
+			path = ZombiConga/Sounds;
+			sourceTree = "<group>";
+		};
+		30BA61721D5945090088FABC /* ZombieCongaMac */ = {
+			isa = PBXGroup;
+			children = (
+				30BA61731D5945090088FABC /* AppDelegate.swift */,
+				30BA61771D59450A0088FABC /* GameScene.sks */,
+				30BA617B1D59450A0088FABC /* MainMenu.xib */,
+				30BA617E1D59450A0088FABC /* Info.plist */,
+			);
+			path = ZombieCongaMac;
+			sourceTree = "<group>";
+		};
+		30BA61821D5946750088FABC /* ZombieCongaShared */ = {
+			isa = PBXGroup;
+			children = (
+				30B2471C1D45984E008E8984 /* Images */,
+				30B247241D45984E008E8984 /* sprites.atlas */,
+				30B247331D46E033008E8984 /* Sounds */,
+				30B247421D470CA6008E8984 /* MainMenuScene.swift */,
+				30B2470A1D458D8B008E8984 /* GameScene.swift */,
+				30D9DB441D503D1B000C9049 /* GameOverScene.swift */,
+				30B247311D46AE43008E8984 /* RandomUtils.swift */,
+				30B2472F1D45DDA0008E8984 /* MathUtils.swift */,
+				30B247401D4707E7008E8984 /* MusicUtils.swift */,
+				30B2472D1D459C92008E8984 /* Assets.xcassets */,
+			);
+			name = ZombieCongaShared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +218,23 @@
 			productReference = 30B247031D458D8B008E8984 /* ZombiConga.app */;
 			productType = "com.apple.product-type.application";
 		};
+		30BA61701D5945090088FABC /* ZombieCongaMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BA61811D59450A0088FABC /* Build configuration list for PBXNativeTarget "ZombieCongaMac" */;
+			buildPhases = (
+				30BA616D1D5945090088FABC /* Sources */,
+				30BA616E1D5945090088FABC /* Frameworks */,
+				30BA616F1D5945090088FABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZombieCongaMac;
+			productName = ZombieCongaMac;
+			productReference = 30BA61711D5945090088FABC /* ZombieCongaMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -171,6 +246,9 @@
 				ORGANIZATIONNAME = RGStudio;
 				TargetAttributes = {
 					30B247021D458D8B008E8984 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					30BA61701D5945090088FABC = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -189,6 +267,7 @@
 			projectRoot = "";
 			targets = (
 				30B247021D458D8B008E8984 /* ZombiConga */,
+				30BA61701D5945090088FABC /* ZombieCongaMac */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +297,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30BA616F1D5945090088FABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA618E1D5947CC0088FABC /* lose.wav in Resources */,
+				30BA618F1D5947CC0088FABC /* win.wav in Resources */,
+				30BA61881D5947BF0088FABC /* MainMenu.png in Resources */,
+				30BA618B1D5947CC0088FABC /* backgroundMusic.mp3 in Resources */,
+				30BA618C1D5947CC0088FABC /* hitCat.wav in Resources */,
+				30BA61961D5947DD0088FABC /* Assets.xcassets in Resources */,
+				30BA61781D59450A0088FABC /* GameScene.sks in Resources */,
+				30BA618D1D5947CC0088FABC /* hitCatLady.wav in Resources */,
+				30BA61831D59479A0088FABC /* sprites.atlas in Resources */,
+				30BA61891D5947BF0088FABC /* YouLose.png in Resources */,
+				30BA61841D5947BF0088FABC /* background1.png in Resources */,
+				30BA61861D5947BF0088FABC /* heart.png in Resources */,
+				30BA61851D5947BF0088FABC /* background2.png in Resources */,
+				30BA618A1D5947BF0088FABC /* YouWin.png in Resources */,
+				30BA617D1D59450A0088FABC /* MainMenu.xib in Resources */,
+				30BA61871D5947BF0088FABC /* infiniteButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -233,6 +335,20 @@
 				30B2470D1D458D8B008E8984 /* GameViewController.swift in Sources */,
 				30B247431D470CA6008E8984 /* MainMenuScene.swift in Sources */,
 				30B247071D458D8B008E8984 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA616D1D5945090088FABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA61941D5947D90088FABC /* MathUtils.swift in Sources */,
+				30BA61921D5947D90088FABC /* GameOverScene.swift in Sources */,
+				30BA61901D5947D90088FABC /* MainMenuScene.swift in Sources */,
+				30BA61931D5947D90088FABC /* RandomUtils.swift in Sources */,
+				30BA61951D5947D90088FABC /* MusicUtils.swift in Sources */,
+				30BA61911D5947D90088FABC /* GameScene.swift in Sources */,
+				30BA61741D5945090088FABC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +369,14 @@
 				30B247141D458D8B008E8984 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		30BA617B1D59450A0088FABC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30BA617C1D59450A0088FABC /* Base */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -367,6 +491,36 @@
 			};
 			name = Release;
 		};
+		30BA617F1D59450A0088FABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZombieCongaMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgstudio.ZombieCongaMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		30BA61801D59450A0088FABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ZombieCongaMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgstudio.ZombieCongaMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -387,6 +541,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		30BA61811D59450A0088FABC /* Build configuration list for PBXNativeTarget "ZombieCongaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA617F1D59450A0088FABC /* Debug */,
+				30BA61801D59450A0088FABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

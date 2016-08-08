@@ -101,7 +101,7 @@ extension CGPoint {
 
 let π = CGFloat(M_PI)
 
-//Gira el zombie de modo que tenga que rotar siempre lo menos posible
+//Gira el elemento de modo que tenga que rotar siempre lo menos posible
 func shortesAngleBetween(angle1:CGFloat, angle2:CGFloat) -> CGFloat {
     let twoπ = 2.0 * π
     var angle = (angle2 - angle1) % twoπ //Los resultados siempre estarán entre 0 y 2π
@@ -126,5 +126,16 @@ func distanceBetweenPoints(point1:CGPoint, point2:CGPoint) -> CGFloat {
 extension CGFloat {
     func sign() -> CGFloat {
         return (self >= 0) ? 1.0 : -1.0
+    }
+}
+
+//Mantiene el giro entre el ángulo máximo y mínimo del elemento dado
+func clamp(min: CGFloat, max: CGFloat, value: CGFloat) -> CGFloat {
+    if( value > max ) {
+        return max
+    } else if( value < min ) {
+        return min
+    } else {
+        return value
     }
 }

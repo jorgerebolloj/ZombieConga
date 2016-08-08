@@ -19,7 +19,17 @@ class MainMenuScene: SKScene {
         addChild(background)
     }
     
+    #if os(iOS)
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        sceneInteraction()
+    }
+    #else
+    override func mouseDown(event: NSEvent) {
+        sceneInteraction()
+    }
+    #endif
+    
+    func sceneInteraction() {
         let gameScene = GameScene(size: self.size)
         gameScene.scaleMode = self.scaleMode
         let transition = SKTransition.doorsOpenHorizontalWithDuration(2.0)

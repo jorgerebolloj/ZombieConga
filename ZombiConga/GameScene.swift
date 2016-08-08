@@ -9,8 +9,8 @@
 import SpriteKit
 
 class GameScene: SKScene {
-    let zombie = SKSpriteNode(imageNamed: "zombie1")
     
+    let zombie = SKSpriteNode(imageNamed: "zombie1")
     let zombieAnimation: SKAction
     
     //Optimización de bajadas de fps (evitar lack)
@@ -194,6 +194,7 @@ class GameScene: SKScene {
         moveZombieLocation(touchLocation)
     }
     
+    #if os(iOS)
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         let touch = touches.first! as UITouch
         let location = touch.locationInNode(backgroundLayer)
@@ -205,6 +206,17 @@ class GameScene: SKScene {
         let location = touch.locationInNode(backgroundLayer)
         sceneTouched(location)
     }
+    #else
+    override func mouseDown(event: NSEvent) {
+        let mouseDown = event.locationInNode(backgroundLayer)
+        sceneTouched(mouseDown)
+    }
+    
+    override func mouseDragged(event: NSEvent) {
+        let mouseDown = event.locationInNode(backgroundLayer)
+        sceneTouched(mouseDown)
+    }
+    #endif
     
     func checkBounds() {
         let bottomLeft = backgroundLayer.convertPoint(CGPointMake(0, CGRectGetMinY(playableArea)), fromNode: self)
